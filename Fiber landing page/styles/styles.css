@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 3.5rem 2rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.fc {
+  display: block;
+  position: relative;
+}
+
+.fc h1 {
+  font-size: 35px;
+}
+
+.fc form {
+  display: block;
+}
+
+.fc form h3 {
+  font-weight: 600;
+  padding-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.fc form input {
+  padding-left: 1rem;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #969696;
+}
+
+.fc form input:focus {
+  outline: none;
+}
+
+.fc form .tnc {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-bottom: 1.5rem;
+}
+
+.fc form .tnc input {
+  width: 5%;
+  margin-right: 1rem;
+}
+
+.fc form .tnc p {
+  width: 90%;
+  font-size: 18px;
+}
+
+.fc form .tnc p a {
+  font-weight: 600;
+}
+
+.fc form .pbtn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  padding-right: 1rem;
+}
+
+.fc form .pbtn input {
+  border: none;
+}
+
+.fc form .eye {
+  border: none;
+  background: none;
+}
+
+.fc form .eye:active {
+  -webkit-transform: translate(75vw, -4vh) scale(0.95);
+          transform: translate(75vw, -4vh) scale(0.95);
+}
+
+.fc form .create {
+  display: block;
+  color: white;
+  text-align: center;
+  background: #4d13d1;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+
+.fc form .sign {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.fc form .sign a {
+  text-decoration: none;
+}
+
+.slider {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  main {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .fc {
+    width: 50%;
+    padding: 10% 8%;
+  }
+  main .fc input {
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  main .fc h3 {
+    font-size: 24px;
+  }
+  main .fc h1 {
+    font-size: 51px;
+  }
+  main .fc .tnc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .fc .tnc input {
+    width: 25px;
+    margin: 0%;
+    padding: 0;
+  }
+  main .fc .tnc p {
+    font-size: 24px;
+  }
+  .slider {
+    width: 50%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5419d9), color-stop(#6e32f8), to(#5a1fe0));
+    background: linear-gradient(180deg, #5419d9, #6e32f8, #5a1fe0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    padding: 10% 9%;
+  }
+  .slider .slides {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    border-radius: .5rem;
+  }
+  .slider h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .slider p {
+    padding-top: 2%;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
