@@ -42,8 +42,13 @@ nav{
         z-index: 1;
         overflow: hidden;
         height: 0;
-        
+
     }
+    .height{
+        height: 100%;
+
+    }
+
     li{
         list-style: none;
         margin-top: 1rem;
